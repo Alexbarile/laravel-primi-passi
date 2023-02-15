@@ -6,8 +6,6 @@
         <title>Laravel</title>      
     </head>
     <body>
-        <h1>Hello Laravel</h1>
-        <a href="/contact">Contatti</a>
-        <a href="/about-us">Su di noi</a>
+        <h1>About Us</h1>
     </body>
 </html>
