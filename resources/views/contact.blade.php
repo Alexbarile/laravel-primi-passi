@@ -19,6 +19,6 @@
                     </div>
                 </div>
             </div>
-        </div class="bg-azure">
+        </div>
     </body>
 </html>

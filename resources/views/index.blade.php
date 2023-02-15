@@ -19,6 +19,6 @@
                     </div>
                 </div>
             </div>
-        </div class="bg-beige">
+        </div>
     </body>
 </html>
