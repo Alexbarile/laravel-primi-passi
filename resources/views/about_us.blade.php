@@ -6,6 +6,8 @@
         <title>Laravel</title>      
     </head>
     <body>
-        <h1>About Us</h1>
+        <h1>{{$name}}</h1>
+        <a href="{{ route('homepage') }}">Homepage</a>
+        <a href="{{ route('contact') }}">Contatti</a>
     </body>
 </html>

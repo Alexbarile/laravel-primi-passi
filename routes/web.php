@@ -17,16 +17,18 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('index');
-})->name('Homepage');
+})->name('homepage');
 
 // CONTACT
 
 Route::get('/contact', function () {
-    return view('contact');
-})->name('Contact');
+    $name = 'Contact';
+    return view('contact', compact('name'));
+})->name('contact');
 
 // ABOUT US
 
 Route::get('/about-us', function () {
-    return view('about_us');
-})->name('About Us');
+    $name = 'About Us';
+    return view('about_us', compact('name'));
+})->name('about-us');

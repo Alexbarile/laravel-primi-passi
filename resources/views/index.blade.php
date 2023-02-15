@@ -7,7 +7,7 @@
     </head>
     <body>
         <h1>Hello Laravel</h1>
-        <a href="/contact">Contatti</a>
-        <a href="/about-us">Su di noi</a>
+        <a href="{{ route('contact') }}">Contatti</a>
+        <a href="{{ route('about-us') }}">Su di noi</a>
     </body>
 </html>
