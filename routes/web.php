@@ -16,3 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('index');
 })->name('Homepage');
+
+Route::get('/contact', function () {
+    return view('contact');
+})->name('Contact');

@@ -6,7 +6,6 @@
         <title>Laravel</title>      
     </head>
     <body>
-        <h1>Hello Laravel</h1>
-        <a href="/contact">Contatti</a>
+        <h1>Contact</h1>
     </body>
 </html>
