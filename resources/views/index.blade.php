@@ -3,11 +3,22 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Laravel</title>      
+        <link rel="stylesheet" href="{{ asset('app.css') }}">
+        <title>Laravel | Homepage</title>      
     </head>
     <body>
-        <h1>Hello Laravel</h1>
-        <a href="{{ route('contact') }}">Contatti</a>
-        <a href="{{ route('about-us') }}">Su di noi</a>
+        <div class="bg-beige">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h1>Hello Laravel</h1>
+                    </div>
+                    <div class="col">
+                        <a href="{{ route('contact') }}">Contatti</a>
+                        <a href="{{ route('about-us') }}">Su di noi</a>
+                    </div>
+                </div>
+            </div>
+        </div class="bg-beige">
     </body>
 </html>
